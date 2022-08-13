@@ -18,4 +18,8 @@ app.post('/post', (req, res) => {
 	res.send('asdf')
 })
 
+app.get('/all', (req, res) => {
+	// return all users
+})
+
 app.listen(port, () => console.log(`Server started on port ${port}`))
